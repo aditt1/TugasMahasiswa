@@ -99,8 +99,32 @@
         android:text="Mahasiswa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMahasiswa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <Button
+        android:id="@+id/btnKelola"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:text="Kelola"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,18 +2,84 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="161dp"
-            android:layout_height="149dp"
-            app:srcCompat="@drawable/Tjong"
-            tools:layout_editor_absoluteX="6dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:layout_width="143dp"
+            android:layout_height="131dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026"
+            app:srcCompat="@drawable/tjong" />
+
+        <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:text="NIM"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:text="Nama"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtNim"
+            app:layout_constraintVertical_bias="0.236" />
+
+        <TextView
+            android:id="@+id/txtCita"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:text="Cita"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.495" />
+
+        <TextView
+            android:id="@+id/txtHobi"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:text="Hobi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.716" />
+
+        <TextView
+            android:id="@+id/txtMoto"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:text="Moto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtNim"
+            app:layout_constraintVertical_bias="0.936" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
